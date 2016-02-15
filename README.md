@@ -11,8 +11,13 @@ There is multiple sources here :
 * XML Schema Datatypes https://www.w3.org/TR/xmlschema-2/ and https://www.w3.org/TR/xmlschema11-2/
 * etc.
 
+## approach
+
+
 ## first draft
 ### EMPTY pointer : null (JSON), xsd:nil
 ### Floating point number : number (JSON), xsd:double
 ### Boolean representation : boolean (JSON), xsd:boolean
 ### DateTime : BSON
+### ...
+### (top of the hierarchy) String : any Unicode string
